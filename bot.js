@@ -274,7 +274,7 @@ ${prefix}queue ⇏ لمعرفة قآئمة التشغيل
    });
  
  
- client.on('ready',async () => { client.channels.find(ch => ch.id === "515598495667847170" && ch.type === 'voice').join(); });
+ client.on('ready',async () => { client.channels.find(ch => ch.id === "515598447131492399" && ch.type === 'voice').join(); });
  
  
 client.login(process.env.BOT_TOKEN);
